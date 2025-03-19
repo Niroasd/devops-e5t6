@@ -2,7 +2,7 @@
   "name": "todo-with-github-actions-and-jest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://niroasd.github.io/devops-e5t6",
+  "homepage": "https://niroasd.github.io/devops-e5t6/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
