@@ -1,8 +1,8 @@
-name: my first workflow for CD
+name: test if lint works
 
 on:
-  # push:
-  #   branches: [ "main" ]
+  push:
+    branches: [ "add-price-list-module" ]
   pull_request:
     branches: [ "add-price-list-module" ]
 
