@@ -9,7 +9,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix --ext .js,.jsx ."
   },
   "browserslist": {
     "production": [
@@ -34,6 +36,10 @@
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "eslint-plugin-react": "^7.37.4",
+    "gh-pages": "^6.3.0",
+    "globals": "^16.0.0"
   }
 }
