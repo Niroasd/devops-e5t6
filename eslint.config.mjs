@@ -20,6 +20,7 @@ export default defineConfig([
       "react/jsx-key": "off",
       "react/prop-types": "off",
       "no-unused-vars": "off",
+      "no-var": "error",
     },
   },
 ]);
