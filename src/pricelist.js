@@ -1,4 +1,4 @@
-let aPriceList;
+var aPriceList;
 
 export const setPriceList = (priceList) => {
   aPriceList = priceList;
